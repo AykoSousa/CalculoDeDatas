@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background: linear-gradient(to right top, rgb(139, 92, 246), rgb(253, 186, 116));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+    padding: 20px;
+
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 2px 3px #000;
+    background-color: #eee;
+}
+.container h1 {
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+.container p {
+    padding: 10px 0px;
+}
+.container label {
+    padding: 10px 0px;
+}
+.container input {
+    padding: 5px 0px;
+    margin-left: 10px;
+
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container span {
+    font-weight: bolder;
+}
+#verificar {
+    color: rgb(200, 0, 0);
+}
